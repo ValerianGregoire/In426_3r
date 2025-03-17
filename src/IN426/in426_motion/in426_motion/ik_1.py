@@ -70,12 +70,31 @@ class IK(Node):
 
     def ik(self):
         """ Compute the inverse kinematics """
-        #TODO: Write the inverse kinematics here
-        #self.t1 corresponds to theta1
-        #self.t2 corresponds to theta2
-        #self.t3 corresponds to theta3
-
+        # Extract target coordinates
+        x, y, z = self.x_d, self.y_d, self.z_d
         
+        # Compute t1 (Base Rotation)
+        self.t1 = np.arctan2(y, x)
+        
+        # Compute r (projection on xy-plane)
+        r = np.sqrt(x**2 + y**2)
+        
+        # Compute D for t3 calculation
+        D = (r**2 + (z - self.l1)**2 - self.l2**2 - (self.l3 + self.l4)**2) / (2 * self.l2 * (self.l3 + self.l4))
+        
+        # Check if D is within valid range for acos
+        if abs(D) > 1:
+            self.get_logger().error("No valid solution: D is out of arccos range")
+            return
+        
+        # Compute t3 (Elbow Angle), ensuring it falls within the correct range
+        self.t3 = -np.arccos(D)  # Ensure negative value for downward elbow bend
+        
+        # Compute t2 (Shoulder Angle)
+        theta1 = np.arctan2(z - self.l1, r)
+        theta2 = np.arctan2((self.l3 + self.l4) * np.sin(self.t3), self.l2 + (self.l3 + self.l4) * np.cos(self.t3))
+        self.t2 = theta1 - theta2
+
         self.get_logger().info(f"t1: {self.t1:.2f}, t2: {self.t2:.2f}, t3: {self.t3:.2f}")
 
         #DO NOT TOUCH
