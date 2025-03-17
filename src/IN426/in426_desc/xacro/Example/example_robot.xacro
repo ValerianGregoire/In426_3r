@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<robot name="example_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find in426_desc)/xacro/material.xacro"/>
+  <!--Add the xacro:property tags here-->
+  <xacro:property name="base_link_width" value="0.5"/>
+  <xacro:property name="base_link_height" value="0.25"/>
+
+  <xacro:property name="link1_width" value="0.25"/>
+  <xacro:property name="link1_height" value="1"/>
+
+  <xacro:property name="link2_width" value="0.15"/>
+  <xacro:property name="link2_height" value="0.5"/>
+
+  <xacro:property name="head_width" value="0.15"/>
+  <xacro:property name="head_height" value="0.2"/>
+
+  <!-- ***************************************** -->
+  <link name="world"/>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 ${base_link_height/2}"/>
+      <geometry>
+        <box size="${base_link_width} ${base_link_width} ${base_link_height}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- ***************************************** -->
+  <link name="link1">
+    <visual>
+      <origin xyz="0 0 ${link1_height/2}"/>
+      <geometry>
+        <box size="${link1_width} ${link1_width} ${link1_height}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+  <joint name="base_link_to_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 ${base_link_height}"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="${-pi/2}" upper="${pi/2}" velocity="1"/>
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="link2_left">
+    <visual>
+      <origin xyz="${link2_height/2} 0 ${link2_width/2}"/>
+      <geometry>
+        <box size="${link2_height} ${link2_width} ${link2_width}"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+  <joint name="1_to_left" type="revolute">
+    <parent link="link1"/>
+    <child link="link2_left"/>
+    <origin xyz="0 ${link1_width/2} ${link1_height}" rpy="${-pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="${-pi/2}" upper="${pi/2}" velocity="1"/>
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="link2_right">
+    <visual>
+      <origin xyz="${link2_height/2} 0 ${-link2_width/2}"/>
+      <geometry>
+        <box size="${link2_height} ${link2_width} ${link2_width}"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+  <joint name="1_to_right" type="revolute">
+    <parent link="link1"/>
+    <child link="link2_right"/>
+    <origin xyz="0 ${-link1_width/2} ${link1_height}" rpy="${-pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="${-pi/2}" upper="${pi/2}" velocity="1"/>
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="head">
+    <visual>
+      <origin xyz="0 0 ${head_height/2}"/>
+      <geometry>
+        <box size="${head_width} ${head_width} ${head_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="1_to_head" type="revolute">
+    <parent link="link1"/>
+    <child link="head"/>
+    <origin xyz="0 0 ${link1_height}"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="${-pi/2}" upper="${pi/2}" velocity="1"/>
+  </joint>
+  
+</robot>

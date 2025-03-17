@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <world name="default">
+    <!-- *********************INITIAL POSE OF THE CAMERA***************************** -->
+		<gui>
+      <camera name="main_cam">
+        <pose>-0.68 -1.04 1.63 0 0.77 0.75</pose>
+      </camera>
+    </gui>
+
+    <!-- *********************GROUND AND SUN***************************** -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- **********************TAGS**************************** -->
+    <include>
+      <uri>model://yellow_tag</uri>
+      <pose>0.08 0.252 0.55 0 0 1.26</pose>
+      <name>yellow_tag</name>
+    </include>
+
+    <include>
+      <uri>model://green_tag</uri>
+      <pose>0.341 -0.084 0.811 0 0 -0.24</pose>
+      <name>green_tag</name>
+    </include>
+
+    <include>
+      <uri>model://black_tag</uri>
+      <pose>0.123 -0.243 0.688 0 0 -1.1</pose>
+      <name>black_tag</name>
+    </include>
+  </world>
+</sdf>

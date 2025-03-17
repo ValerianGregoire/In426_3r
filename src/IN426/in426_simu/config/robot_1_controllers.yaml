@@ -1,0 +1,21 @@
+controller_manager:
+    ros__parameters:
+        update_rate: 50 #Hz
+
+        joint_trajectory_position_controller:
+            type: joint_trajectory_controller/JointTrajectoryController
+        
+        joint_state_broadcaster:
+            type: joint_state_broadcaster/JointStateBroadcaster
+
+joint_trajectory_position_controller:
+    ros__parameters:
+        joints: #non-fixed joints defined in the xacro file
+            - base_to_1
+            - 1_to_2
+            - 2_to_3
+        interface_name: position
+        command_interfaces:
+            - position  #send desired positions for our joints
+        state_interfaces:   #which states we want to broadcast 
+            - position

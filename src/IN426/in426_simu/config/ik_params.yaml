@@ -1,0 +1,9 @@
+ik_1:
+  ros__parameters:
+    arm_lengths: [0.43, 0.3, 0.2, 0.025]  #l1, l2, l3, l4
+    lower_limits: [-1.57, -0.52, -1.57]
+    upper_limits: [1.57, 1.57, 0.0]
+  
+motion_robot_2:
+  ros__parameters:
+    arm_lengths: [0.05, 0.48, 0.15]  #d0, d1, d4
