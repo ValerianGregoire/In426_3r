@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/val/ros2_ws/build/in426_simu
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_1_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_2_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_example_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/simu_1_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/simu_2_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/spawn_robot_1_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/spawn_robot_2_launch.py
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/ik_params.yaml
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/robot_1_controllers.yaml
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/robot_2_controllers.yaml
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/mesh/Cylinder_hole.stl
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/model.config
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/model.sdf
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/mesh/Cylinder_hole.stl
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/model.config
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/model.sdf
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/mesh/Cylinder_hole.stl
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/model.config
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/model.sdf
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/rviz/config.rviz
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/rviz/config_rds.rviz
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/worlds/env_with_obj.world
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/package_run_dependencies/in426_simu
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/parent_prefix_path/in426_simu
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/ament_prefix_path.sh
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/ament_prefix_path.dsv
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/path.sh
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/path.dsv
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.bash
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.sh
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.zsh
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.dsv
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/package.dsv
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/packages/in426_simu
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/cmake/in426_simuConfig.cmake
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/cmake/in426_simuConfig-version.cmake
+-- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/package.xml

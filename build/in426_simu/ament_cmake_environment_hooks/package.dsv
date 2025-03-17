@@ -1,0 +1,4 @@
+source;share/in426_simu/local_setup.bash
+source;share/in426_simu/local_setup.dsv
+source;share/in426_simu/local_setup.sh
+source;share/in426_simu/local_setup.zsh

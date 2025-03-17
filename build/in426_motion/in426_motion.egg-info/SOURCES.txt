@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+in426_motion/__init__.py
+in426_motion/ik_1.py
+in426_motion/motion_robot_2.py
+in426_motion/send_goal_test.py
+in426_motion.egg-info/PKG-INFO
+in426_motion.egg-info/SOURCES.txt
+in426_motion.egg-info/dependency_links.txt
+in426_motion.egg-info/entry_points.txt
+in426_motion.egg-info/requires.txt
+in426_motion.egg-info/top_level.txt
+in426_motion.egg-info/zip-safe
+launch/ik_1_launch.py
+launch/motion_robot_2_launch.py
+resource/in426_motion

@@ -1,0 +1,8 @@
+source;share/in426_desc/hook/cmake_prefix_path.ps1
+source;share/in426_desc/hook/cmake_prefix_path.dsv
+source;share/in426_desc/hook/cmake_prefix_path.sh
+source;share/in426_desc/local_setup.bash
+source;share/in426_desc/local_setup.dsv
+source;share/in426_desc/local_setup.ps1
+source;share/in426_desc/local_setup.sh
+source;share/in426_desc/local_setup.zsh

@@ -1,0 +1,52 @@
+[0.052s] Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_desc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_desc
+[0.407s] -- The C compiler identification is GNU 9.4.0
+[0.428s] -- The CXX compiler identification is GNU 9.4.0
+[0.446s] -- Check for working C compiler: /usr/bin/cc
+[0.570s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.572s] -- Detecting C compiler ABI info
+[0.690s] -- Detecting C compiler ABI info - done
+[0.707s] -- Detecting C compile features
+[0.709s] -- Detecting C compile features - done
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++
+[0.844s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.845s] -- Detecting CXX compiler ABI info
+[0.974s] -- Detecting CXX compiler ABI info - done
+[0.991s] -- Detecting CXX compile features
+[0.992s] -- Detecting CXX compile features - done
+[1.011s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.056s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.167s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.351s] -- Configuring done
+[1.354s] -- Generating done
+[1.357s] -- Build files have been written to: /home/val/ros2_ws/build/in426_desc
+[1.363s] Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_desc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_desc
+[1.375s] Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_desc -- -j5 -l5
+[1.451s] Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_desc -- -j5 -l5
+[1.476s] Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_desc
+[1.491s] -- Install configuration: ""
+[1.491s] -- Execute custom install script
+[1.492s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Example/example_robot.xacro
+[1.507s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_1/robot_1.gazebo
+[1.522s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_1/robot_1.xacro
+[1.537s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_1/robot_1_ros2_control.xacro
+[1.554s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_2/robot_2.gazebo
+[1.568s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_2/robot_2.xacro
+[1.585s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/Robot_2/robot_2_ros2_control.xacro
+[1.602s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/xacro/material.xacro
+[1.620s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/ament_index/resource_index/package_run_dependencies/in426_desc
+[1.637s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/ament_index/resource_index/parent_prefix_path/in426_desc
+[1.658s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/environment/ament_prefix_path.sh
+[1.675s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/environment/ament_prefix_path.dsv
+[1.694s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/environment/path.sh
+[1.723s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/environment/path.dsv
+[1.732s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/local_setup.bash
+[1.748s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/local_setup.sh
+[1.765s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/local_setup.zsh
+[1.785s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/local_setup.dsv
+[1.803s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/package.dsv
+[1.820s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/ament_index/resource_index/packages/in426_desc
+[1.837s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/cmake/in426_descConfig.cmake
+[1.855s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/cmake/in426_descConfig-version.cmake
+[1.872s] -- Symlinking: /home/val/ros2_ws/install/in426_desc/share/in426_desc/package.xml
+[1.892s] Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_desc

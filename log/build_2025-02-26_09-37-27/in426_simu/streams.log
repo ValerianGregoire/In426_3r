@@ -1,0 +1,66 @@
+[0.380s] Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_simu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_simu
+[0.472s] -- The C compiler identification is GNU 9.4.0
+[0.554s] -- The CXX compiler identification is GNU 9.4.0
+[0.561s] -- Check for working C compiler: /usr/bin/cc
+[0.677s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.678s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.807s] -- Detecting C compile features
+[0.808s] -- Detecting C compile features - done
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++
+[0.934s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.936s] -- Detecting CXX compiler ABI info
+[1.061s] -- Detecting CXX compiler ABI info - done
+[1.079s] -- Detecting CXX compile features
+[1.079s] -- Detecting CXX compile features - done
+[1.083s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.123s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.379s] -- Configuring done
+[1.383s] -- Generating done
+[1.386s] -- Build files have been written to: /home/val/ros2_ws/build/in426_simu
+[1.393s] Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_simu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_simu
+[1.399s] Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_simu -- -j5 -l5
+[1.463s] Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_simu -- -j5 -l5
+[1.465s] Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_simu
+[1.483s] -- Install configuration: ""
+[1.483s] -- Execute custom install script
+[1.484s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_1_launch.py
+[1.500s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_2_launch.py
+[1.515s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/display_example_launch.py
+[1.531s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/simu_1_launch.py
+[1.548s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/simu_2_launch.py
+[1.565s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/spawn_robot_1_launch.py
+[1.583s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/launch/spawn_robot_2_launch.py
+[1.600s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/ik_params.yaml
+[1.618s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/robot_1_controllers.yaml
+[1.637s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/config/robot_2_controllers.yaml
+[1.656s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/mesh/Cylinder_hole.stl
+[1.674s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/model.config
+[1.700s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/black_tag/model.sdf
+[1.712s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/mesh/Cylinder_hole.stl
+[1.728s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/model.config
+[1.746s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/green_tag/model.sdf
+[1.764s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/mesh/Cylinder_hole.stl
+[1.780s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/model.config
+[1.796s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/models/yellow_tag/model.sdf
+[1.814s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/rviz/config.rviz
+[1.833s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/rviz/config_rds.rviz
+[1.849s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/worlds/env_with_obj.world
+[1.866s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/package_run_dependencies/in426_simu
+[1.887s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/parent_prefix_path/in426_simu
+[1.902s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/ament_prefix_path.sh
+[1.921s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/ament_prefix_path.dsv
+[1.942s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/path.sh
+[1.959s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/environment/path.dsv
+[1.979s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.bash
+[1.996s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.sh
+[2.013s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.zsh
+[2.030s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/local_setup.dsv
+[2.048s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/package.dsv
+[2.063s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/ament_index/resource_index/packages/in426_simu
+[2.078s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/cmake/in426_simuConfig.cmake
+[2.092s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/cmake/in426_simuConfig-version.cmake
+[2.108s] -- Symlinking: /home/val/ros2_ws/install/in426_simu/share/in426_simu/package.xml
+[2.127s] Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_simu

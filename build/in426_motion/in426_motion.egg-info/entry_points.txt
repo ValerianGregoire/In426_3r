@@ -1,0 +1,5 @@
+[console_scripts]
+ik_1.py = in426_motion.ik_1:main
+motion_robot_2.py = in426_motion.motion_robot_2:main
+send_goal_test.py = in426_motion.send_goal_test:main
+

@@ -1,0 +1,272 @@
+[0.390s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.390s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb97bf1bb20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=5, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb97bf1bb20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb97bf3bd30>)
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.599s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/val/ros2_ws'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_desc) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IN426/in426_desc' with type 'ros.ament_cmake' and name 'in426_desc'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_motion) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IN426/in426_motion' with type 'ros.ament_python' and name 'in426_motion'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/IN426/in426_simu) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IN426/in426_simu' with type 'ros.ament_cmake' and name 'in426_simu'
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/galactic
+[0.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'in426_desc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'in426_desc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/val/ros2_ws/build/in426_desc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/val/ros2_ws/install/in426_desc', 'merge_install': False, 'path': '/home/val/ros2_ws/src/IN426/in426_desc', 'symlink_install': True, 'test_result_base': None}
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_target' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'in426_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.840s] DEBUG:colcon.colcon_core.verb:Building package 'in426_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/val/ros2_ws/build/in426_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/val/ros2_ws/install/in426_motion', 'merge_install': False, 'path': '/home/val/ros2_ws/src/IN426/in426_motion', 'symlink_install': True, 'test_result_base': None}
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_clean_first' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'cmake_force_configure' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'ament_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'in426_simu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.841s] DEBUG:colcon.colcon_core.verb:Building package 'in426_simu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/val/ros2_ws/build/in426_simu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/val/ros2_ws/install/in426_simu', 'merge_install': False, 'path': '/home/val/ros2_ws/src/IN426/in426_simu', 'symlink_install': True, 'test_result_base': None}
+[0.841s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.843s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/val/ros2_ws/src/IN426/in426_desc' with build type 'ament_cmake'
+[0.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/val/ros2_ws/src/IN426/in426_desc'
+[0.850s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/val/ros2_ws/src/IN426/in426_motion' with build type 'ament_python'
+[0.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_motion', 'ament_prefix_path')
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/ament_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/ament_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/ament_prefix_path.sh'
+[0.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/val/ros2_ws/src/IN426/in426_simu' with build type 'ament_cmake'
+[0.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/val/ros2_ws/src/IN426/in426_simu'
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_desc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_desc
+[1.238s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/val/ros2_ws/src/IN426/in426_motion'
+[1.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_simu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_simu
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_motion': PYTHONPATH=/home/val/ros2_ws/build/in426_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/val/ros2_ws/install/in426_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/val/ros2_ws/build/in426_motion/build --no-deps symlink_data
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_desc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_desc
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_desc -- -j5 -l5
+[2.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/val/ros2_ws/src/IN426/in426_simu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/val/ros2_ws/install/in426_simu
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_simu -- -j5 -l5
+[2.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_desc -- -j5 -l5
+[2.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_desc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_desc
+[2.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/val/ros2_ws/build/in426_simu -- -j5 -l5
+[2.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/val/ros2_ws/build/in426_simu': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_simu
+[2.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(in426_desc)
+[2.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_desc
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc' for CMake module files
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc' for CMake config files
+[2.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_desc', 'cmake_prefix_path')
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.ps1'
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.sh'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/lib/pkgconfig/in426_desc.pc'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/lib/python3.8/site-packages'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/bin'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.sh'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.bash'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.zsh'
+[2.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/val/ros2_ws/install/in426_desc/share/colcon-core/packages/in426_desc)
+[2.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(in426_desc)
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc' for CMake module files
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc' for CMake config files
+[2.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_desc', 'cmake_prefix_path')
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.dsv'
+[2.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_desc/share/in426_desc/hook/cmake_prefix_path.sh'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/bin'
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/lib/pkgconfig/in426_desc.pc'
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/lib/python3.8/site-packages'
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_desc/bin'
+[2.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.ps1'
+[2.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.bash'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_desc/share/in426_desc/package.zsh'
+[2.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/val/ros2_ws/install/in426_desc/share/colcon-core/packages/in426_desc)
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_motion', 'pythonpath_develop')
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/build/in426_motion/share/in426_motion/hook/pythonpath_develop.ps1'
+[2.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_motion' returned '0': PYTHONPATH=/home/val/ros2_ws/build/in426_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/val/ros2_ws/install/in426_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/val/ros2_ws/build/in426_motion/build --no-deps symlink_data
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/build/in426_motion/share/in426_motion/hook/pythonpath_develop.dsv'
+[2.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/build/in426_motion/share/in426_motion/hook/pythonpath_develop.sh'
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion' for CMake module files
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion' for CMake config files
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion/lib'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion/bin'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion/lib/pkgconfig/in426_motion.pc'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion/lib/python3.8/site-packages'
+[2.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_motion', 'pythonpath')
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/pythonpath.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/pythonpath.dsv'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_motion/share/in426_motion/hook/pythonpath.sh'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_motion/bin'
+[2.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(in426_motion)
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_motion/share/in426_motion/package.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/val/ros2_ws/install/in426_motion/share/in426_motion/package.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_motion/share/in426_motion/package.sh'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_motion/share/in426_motion/package.bash'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_motion/share/in426_motion/package.zsh'
+[2.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/val/ros2_ws/install/in426_motion/share/colcon-core/packages/in426_motion)
+[3.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(in426_simu)
+[3.002s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu' for CMake module files
+[3.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/val/ros2_ws/build/in426_simu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/val/ros2_ws/build/in426_simu
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu' for CMake config files
+[3.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_simu', 'cmake_prefix_path')
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.ps1'
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.dsv'
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.sh'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/bin'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/lib/pkgconfig/in426_simu.pc'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/lib/python3.8/site-packages'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/bin'
+[3.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.ps1'
+[3.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.dsv'
+[3.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.sh'
+[3.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.bash'
+[3.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.zsh'
+[3.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/val/ros2_ws/install/in426_simu/share/colcon-core/packages/in426_simu)
+[3.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(in426_simu)
+[3.011s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu' for CMake module files
+[3.012s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu' for CMake config files
+[3.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('in426_simu', 'cmake_prefix_path')
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.ps1'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.dsv'
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/val/ros2_ws/install/in426_simu/share/in426_simu/hook/cmake_prefix_path.sh'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/bin'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/lib/pkgconfig/in426_simu.pc'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/lib/python3.8/site-packages'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/val/ros2_ws/install/in426_simu/bin'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.sh'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.bash'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/val/ros2_ws/install/in426_simu/share/in426_simu/package.zsh'
+[3.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/val/ros2_ws/install/in426_simu/share/colcon-core/packages/in426_simu)
+[3.020s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.041s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.258s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/val/ros2_ws/install/local_setup.ps1'
+[3.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/val/ros2_ws/install/_local_setup_util_ps1.py'
+[3.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/val/ros2_ws/install/setup.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/val/ros2_ws/install/local_setup.sh'
+[3.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/val/ros2_ws/install/_local_setup_util_sh.py'
+[3.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/val/ros2_ws/install/setup.sh'
+[3.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/val/ros2_ws/install/local_setup.bash'
+[3.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/val/ros2_ws/install/setup.bash'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/val/ros2_ws/install/local_setup.zsh'
+[3.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/val/ros2_ws/install/setup.zsh'

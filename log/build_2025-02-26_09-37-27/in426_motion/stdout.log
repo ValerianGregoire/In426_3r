@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating in426_motion.egg-info
+writing in426_motion.egg-info/PKG-INFO
+writing dependency_links to in426_motion.egg-info/dependency_links.txt
+writing entry points to in426_motion.egg-info/entry_points.txt
+writing requirements to in426_motion.egg-info/requires.txt
+writing top-level names to in426_motion.egg-info/top_level.txt
+writing manifest file 'in426_motion.egg-info/SOURCES.txt'
+reading manifest file 'in426_motion.egg-info/SOURCES.txt'
+writing manifest file 'in426_motion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/val/ros2_ws/install/in426_motion/lib/python3.8/site-packages/site.py
+Creating /home/val/ros2_ws/install/in426_motion/lib/python3.8/site-packages/in426-motion.egg-link (link to .)
+Installing ik_1.py script to /home/val/ros2_ws/install/in426_motion/lib/in426_motion
+Installing motion_robot_2.py script to /home/val/ros2_ws/install/in426_motion/lib/in426_motion
+Installing send_goal_test.py script to /home/val/ros2_ws/install/in426_motion/lib/in426_motion
+
+Installed /home/val/ros2_ws/build/in426_motion
+running symlink_data
+creating /home/val/ros2_ws/install/in426_motion/share/ament_index
+creating /home/val/ros2_ws/install/in426_motion/share/ament_index/resource_index
+creating /home/val/ros2_ws/install/in426_motion/share/ament_index/resource_index/packages
+symbolically linking /home/val/ros2_ws/build/in426_motion/resource/in426_motion -> /home/val/ros2_ws/install/in426_motion/share/ament_index/resource_index/packages
+symbolically linking /home/val/ros2_ws/build/in426_motion/package.xml -> /home/val/ros2_ws/install/in426_motion/share/in426_motion
+symbolically linking /home/val/ros2_ws/build/in426_motion/launch/motion_robot_2_launch.py -> /home/val/ros2_ws/install/in426_motion/share/in426_motion
+symbolically linking /home/val/ros2_ws/build/in426_motion/launch/ik_1_launch.py -> /home/val/ros2_ws/install/in426_motion/share/in426_motion
