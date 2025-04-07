@@ -34,31 +34,35 @@ class Robot(Node):
         """ Perform the task """
         points = []
 
-        s = 10
+        s  = 5
 
-        # #MOVE TO YELLOW TAG: (x_d, y_d, z_d) = (0.08, 0.252, 0.55)
-        # point1 = JointTrajectoryPoint()
-        # point1.time_from_start = Duration(seconds=s, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
-        # point1.positions = [0.08, 0.252, 0.55]
-        # points.append(point1)
+        #MOVE TO YELLOW TAG: (x_d, y_d, z_d) = (0.08, 0.252, 0.55)
+        self.ik(0.08, 0.252, 0.55)
+        point1 = JointTrajectoryPoint()
+        point1.time_from_start = Duration(seconds=s, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point1.positions = [self.q1, self.q2, self.q3]
+        points.append(point1)
 
         #MOVE TO GREEN TAG: (x_d, y_d, z_d) = (0.341, -0.084, 0.811)
+        self.ik(0.341, -0.084, 0.811)
         point2 = JointTrajectoryPoint()
         point2.time_from_start = Duration(seconds=s*2, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
-        point2.positions = [0.341, -0.084, 0.811]
+        point2.positions = [self.q1, self.q2, self.q3]
         points.append(point2)
 
-        # #MOVE TO BLACK TAG: (x_d, y_d, z_d) = (0.123, -0.243, 0.688)
-        # point3 = JointTrajectoryPoint()
-        # point3.time_from_start = Duration(seconds=s*3, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
-        # point3.positions = [0.123, -0.243, 0.688]
-        # points.append(point3)
+        #MOVE TO BLACK TAG: (x_d, y_d, z_d) = (0.123, -0.243, 0.688)
+        self.ik(0.123, -0.243, 0.688)
+        point3 = JointTrajectoryPoint()
+        point3.time_from_start = Duration(seconds=s*3, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point3.positions = [self.q1, self.q2, self.q3]
+        points.append(point3)
 
-        # #RESTING POSE: (x_d, y_d, z_d) = (0.15, 0, 0.53)
-        # point4 = JointTrajectoryPoint()
-        # point4.time_from_start = Duration(seconds=s*4, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
-        # point4.positions = [0.15, 0.0, 0.53]
-        # points.append(point4)
+        #RESTING POSE: (x_d, y_d, z_d) = (0.15, 0, 0.53)
+        self.ik(0.15, 0.0, 0.53)
+        point4 = JointTrajectoryPoint()
+        point4.time_from_start = Duration(seconds=s*4, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point4.positions = [self.q1, self.q2, self.q3]
+        points.append(point4)
 
         self.send_joints(points)
 
