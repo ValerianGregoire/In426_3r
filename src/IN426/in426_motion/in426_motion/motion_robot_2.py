@@ -35,16 +35,28 @@ class Robot(Node):
         points = []
 
         #MOVE TO YELLOW TAG: (x_d, y_d, z_d) = (0.08, 0.252, 0.55)
-        
+        point1 = JointTrajectoryPoint()
+        point1.time_from_start = Duration(seconds=5, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point1.positions = [[0.08, 0.252, 0.55]]
+        points.append(point1)
 
         #MOVE TO GREEN TAG: (x_d, y_d, z_d) = (0.341, -0.084, 0.811)
-        
+        point2 = JointTrajectoryPoint()
+        point2.time_from_start = Duration(seconds=5, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point2.positions = [[0.341, -0.084, 0.811]]
+        points.append(point2)
 
         #MOVE TO BLACK TAG: (x_d, y_d, z_d) = (0.123, -0.243, 0.688)
-        
+        point3 = JointTrajectoryPoint()
+        point3.time_from_start = Duration(seconds=5, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point3.positions = [[0.123, -0.243, 0.688]]
+        points.append(point3)
 
         #RESTING POSE: (x_d, y_d, z_d) = (0.15, 0, 0.53)
-        
+        point4 = JointTrajectoryPoint()
+        point4.time_from_start = Duration(seconds=5, nanoseconds=0).to_msg()    #5 seconds to reach the desired position
+        point4.positions = [[0.15, 0, 0.53]]
+        points.append(point4)
 
         self.send_joints(points)
 
@@ -55,6 +67,21 @@ class Robot(Node):
         #self.q1 corresponds to theta1
         #self.q2 corresponds to d2
         #self.q3 corresponds to d3
+
+        # Extract target coordinates
+        x, y, z = x_d, y_d, z_d
+        
+        # Compute t1 (Base Rotation)
+        self.q1 = np.arctan2(y, x)
+        
+        # Compute d2 (Vertical arm length)
+        self.q2 = z - self.d0 - self.d1
+
+        # Compute d3 (Horizontal arm length)
+        self.q3 = np.sqrt(x**2 + y**2) - self.d4
+        
+        self.get_logger().info(f"t1: {self.q1:.2f}, d2: {self.q2:.2f}, d3: {self.q3:.2f}")
+
 
 
     def send_joints(self, points):
